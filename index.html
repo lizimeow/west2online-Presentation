@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>index</title>
+    <link href="css/index.css" rel="stylesheet" />
+</head>
+<body class="impress-not-supported">
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+</div>
+
+<div id="impress">
+    <div id="main" class="step active" data-x="0" data-y="0" data-rotate="180" data-rotate-x="90" data-z="-2000" data-scale="6" style="position: absolute; transform: translate(-50%, -50%) translate3d(0px, -4000px, -2000px) rotateX(90deg) rotateY(0deg) rotateZ(180deg) scale(6); transform-style: preserve-3d;">
+        <q   style="position:absolute;top:-240px;left: -25px" >west2 online Talk<b class="hl">西二在线宣讲会</b></q>
+        <p style="font-size:40px;position:absolute;bottom:-180px;left:17px;font-family:'MingLiu'">用你的一个想法/一份策划/一篇文稿/一段代码<br>改变福大<b style="color:#d44444;">5万人</b>的生活习惯</p>
+    </div>
+
+     <div class="step active" data-x="7000"  data-z="7000" data-rotate="180" data-rotate-x="270" data-scale="6" style="position: absolute; transform: translate(-50%, -50%) translate3d(0px, -4000px, -2000px) rotateX(90deg) rotateY(0deg) rotateZ(180deg) scale(6); transform-style: preserve-3d;">
+        <img style="width:700px;" src="img/weixin.jpg">
+    </div>
+</div>
+<script>
+    if ("ontouchstart" in document.documentElement) {
+        document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+    }
+</script>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
